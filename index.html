@@ -11,7 +11,7 @@
     <title>Mediwise</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-d">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Mediwise</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,20 +43,19 @@
               </li>
             </ul>
             <form class="d-flex">
-              <div>
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-              </div>
+              <button class="btn btn-outline-primary" type="submit">Search</button>
             </form>
           </div>
         </div>
 
-        
         <!-- log in -->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary form-group" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+        <div class="mr-4">
+        <button type="button" class="btn btn-outline-primary" style="width: 5rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+        </div>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade form-group" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -86,9 +85,9 @@
 
         <!-- sign up -->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary form-group" data-bs-toggle="modal" data-bs-target="#sighUpModal">Sign up</button>
+        <button type="button" class="btn btn-outline-primary" style="width: 6rem;" data-bs-toggle="modal" data-bs-target="#sighUpModal">Sign up</button>
         <!-- Modal -->
-        <div class="modal fade" id="sighUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade form-group" id="sighUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -126,7 +125,7 @@
 
       </nav>
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide my-1" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/img/hero section-1.jpeg" class="d-block w-100" alt="Doctor Image">
@@ -169,7 +168,7 @@
               <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?localdoctor" alt="" class="src">
   
               <div class="card-body">
-                <h1 class="card-text">E-Prescription</h1>
+                <h2 class="card-text">E-Prescription</h2>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
@@ -183,7 +182,7 @@
                 <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?pornstar" alt="" class="src">
   
               <div class="card-body">
-                <h1 class="card-text">E-Prescription</h1>
+                <h2 class="card-text">E-Prescription</h2>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
@@ -197,7 +196,7 @@
                 <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?authorised,doctors" alt="" class="src">
   
               <div class="card-body">
-                <h1 class="card-text">SOS</h1>
+                <h2 class="card-text">SOS</h2>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
@@ -211,7 +210,7 @@
                 <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?online,pharmacy" alt="" class="src">
   
               <div class="card-body">
-                <h1 class="card-text">Online Pharmacy</h1>
+                <h2 class="card-text">Online Pharmacy</h2>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
@@ -225,7 +224,7 @@
                 <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?online,appointment" alt="" class="src">
   
               <div class="card-body">
-                <h1 class="card-text">Authorised Doctors</h1>
+                <h2 class="card-text">Authorised Doctors</h2>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
@@ -242,48 +241,39 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?hospital,prescriptio" alt="" class="src">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/ainu.jpg" alt="" class="src">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
                   </div>
-                  <small class="text-muted">9 mins</small>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?hospital,treatment" alt="" class="src">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/desun.jpeg" alt="" class="src">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
                   </div>
-                  <small class="text-muted">9 mins</small>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://source.unsplash.com/1400x500/?hospital,medical" alt="" class="src">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/img/neotia.jpg" alt="" class="src">
 
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-outline-primary">View More</button>
                   </div>
-                  <small class="text-muted">9 mins</small>
                 </div>
               </div>
             </div>
@@ -296,7 +286,18 @@
             <div class="container" id="footer">
             <div class="row">
               <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
+                <h5>Quick Links</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospitals</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Doctors</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Our Services</h5>
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
@@ -307,7 +308,7 @@
               </div>
         
               <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
+                <h5>Contact Info</h5>
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
@@ -316,9 +317,9 @@
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
                 </ul>
               </div>
-        
+
               <div class="col-6 col-md-2 mb-3">
-                <h5>Section</h5>
+                <h5>Follow Us</h5>
                 <ul class="nav flex-column">
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
@@ -342,7 +343,7 @@
             </div>
         
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-              <p>© 2022 Company, Inc. All rights reserved.</p>
+              <p>© 2024 MediWise. All rights reserved.</p>
               <ul class="list-unstyled d-flex">
                 <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
                 <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
