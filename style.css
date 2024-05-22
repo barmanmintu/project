@@ -84,8 +84,21 @@
 #footer{
     display: flex;
     gap: 200px;
+    margin-top: 250px;
 }
 
 .footer-inner{
     margin-left: 20px;
+}
+#subscribe{
+    margin-left: 150px;
+}
+#footera{
+    margin: 0;
+}
+#copyright{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
 }
