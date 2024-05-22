@@ -63,6 +63,10 @@
     margin: 0;
 
 }
+.services-img{
+
+    width: 343px;
+}
 #services-inner{
     width: 100vw;
 }
@@ -78,10 +82,7 @@
     margin-left: 22vw;
 
 }
-.services-img{
 
-    width: 350px;
-}
 
 #footer{
     display: flex;
