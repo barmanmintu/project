@@ -13,20 +13,20 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" id="nav-a" href="#">Mediwise</a>
+          <a class="navbar-brand" href="#">Mediwise</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active nav-la" id="nav-a" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-la" id="nav-a" href="#">Hospitals</a>
+                <a class="nav-link" href="#">Hospitals</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle nav-la" id="nav-a" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Doctors
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -39,21 +39,21 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="about.html" id="nav-a" class="nav-link nav-la">About Us</a>
+                <a href="about.html " class="nav-link">About Us</a>
               </li>
             </ul>
             <form class="d-flex">
-              <div>
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-              </div>
+              <button class="btn btn-outline-primary" type="submit">Search</button>
             </form>
           </div>
         </div>
 
         <!-- log in -->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary form-group" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+        <div class="mr-4">
+        <button type="button" class="btn btn-outline-primary" style="width: 5rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+        </div>
         <!-- Modal -->
         <div class="modal fade form-group" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -85,7 +85,7 @@
 
         <!-- sign up -->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary form-group" data-bs-toggle="modal" data-bs-target="#sighUpModal">Sign up</button>
+        <button type="button" class="btn btn-outline-primary" style="width: 6rem;" data-bs-toggle="modal" data-bs-target="#sighUpModal">Sign up</button>
         <!-- Modal -->
         <div class="modal fade form-group" id="sighUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -291,8 +291,8 @@
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospitals</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Doctors</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
                 </ul>
               </div>
         
@@ -343,7 +343,7 @@
             </div>
         
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-              <p>© 2024 MediWise. All rights reserved.</p>
+              <p>© 2022 Company, Inc. All rights reserved.</p>
               <ul class="list-unstyled d-flex">
                 <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
                 <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
