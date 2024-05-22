@@ -56,3 +56,36 @@
     width: 40px;
     height: 38px;
 }
+
+#services {
+    margin: 0;
+
+}
+#services-inner{
+    width: 100vw;
+}
+
+#partners{
+    margin: 0;
+    /* justify-content: center; */
+}
+#partners-inner{
+    width: 100vw;
+}
+#partners-inner1{
+    margin-left: 22vw;
+
+}
+.services-img{
+
+    width: 350px;
+}
+
+#footer{
+    display: flex;
+    gap: 200px;
+}
+
+.footer-inner{
+    margin-left: 20px;
+}
