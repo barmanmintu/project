@@ -1,4 +1,4 @@
-body{
+#sf{
     text-align: center;
 }
 
@@ -31,6 +31,7 @@ body{
 .search{
     display: flex;
     border: 1px solid black;
+    border-radius: 7px;
 }
 #loginbtn{
     width: 90px;
@@ -39,4 +40,19 @@ body{
 #signupbtn{
     margin: 0 7px 0 7px;
     width: 90px;
+}
+
+.button{
+    background: white;
+    border: 2px solid #017fc4;
+    width: 40px;
+    height: 38px;
+    border-radius: 6px;
+    color: #017fc4;
+}
+.button:hover{
+    background-color: #017fc4;
+    color: white;
+    width: 40px;
+    height: 38px;
 }
