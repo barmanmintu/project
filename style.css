@@ -74,7 +74,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -170px;
-    margin-bottom: 350px;
+    margin-bottom: 390px;
 }
 /* .card{
     margin-left: 90px;
@@ -87,13 +87,22 @@
     align-items: center;
 
 }
-
+.ourservices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .partners{
     gap: 50px;
     display: flex;
     /* width: 100vw; */
     justify-content: center;
     align-items: center; 
+}
+.ourpartners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer{
