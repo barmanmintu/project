@@ -14,6 +14,11 @@
     color: #006298;
 }
 
+.nav-div{
+    /* border: 1px solid black; */
+    background-color: rgb(179, 179, 179);
+    margin: 1px 0 0 0;
+}
 #nav{
     color: black;
 }
@@ -59,8 +64,14 @@
     height: 38px;
 }
 
+#details{
+    margin: -150px 0 390px 230px;
+    display: flex;
+    gap: 100px;
+}
+
 #services {
-    margin: 0;
+    margin: 0 0 0 0;
 
 }
 .services-img{
@@ -82,7 +93,9 @@
     margin-left: 22vw;
 
 }
-
+#ourPartner{
+    margin-top: 90px;
+}
 
 #footer{
     display: flex;
@@ -104,4 +117,8 @@
 }
 a{
     text-decoration: none;
+}
+#carouselExampleControls{
+    height: 0px;
+    margin: 40px 0 250PX 0;
 }
