@@ -64,41 +64,36 @@
     height: 38px;
 }
 
+.col{
+    padding: 0;
+}
+
 #details{
+    gap: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -170px;
     margin-bottom: 350px;
 }
-.card{
+/* .card{
     margin-left: 90px;
-}
-#services {
-    margin: 0 0 0 0;
+} */
+.services {
+    gap: 50px;
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+    align-items: center;
 
 }
-.services-img{
 
-    width: 343px;
-}
-#services-inner{
-    width: 100vw;
-}
-
-#partners{
-    margin: 0;
-    /* justify-content: center; */
-}
-#partners-inner{
-    width: 100vw;
-}
-#partners-inner1{
-    margin-left: 22vw;
-
-}
-#ourPartner{
-    margin-top: 90px;
+.partners{
+    gap: 50px;
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+    align-items: center; 
 }
 
 #footer{
